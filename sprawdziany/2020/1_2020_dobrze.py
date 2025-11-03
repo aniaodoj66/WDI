@@ -1,4 +1,4 @@
-
+# da się krócej, zad 87
 
 def dzielniki(x):
     d = [0 for i in range(x)]

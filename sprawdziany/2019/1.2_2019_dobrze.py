@@ -1,4 +1,4 @@
-
+# dobrze
 
 N = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
@@ -43,6 +43,7 @@ def tablica(T):
             if w[j] == 1:
                 indeksy_w[i] = 1
                 indeksy_k[j] = 1
+                
     for i in range(len(indeksy_w)):
         if indeksy_w[i] == 1:
             w_bledy += 1
