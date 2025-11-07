@@ -1,22 +1,22 @@
 
 
-napis = "ANIAania"
+napis = "123321"
 cut = napis[:3]
-print(cut)
+print(napis[3:0:-1])
+print(napis[3:6])
+print(len(napis))
+
 
 import math
-
 x = 35
 y = int(math.sqrt(x))
-print(y)
+
 
 def nwd(a, b):
-    print(a,b)
     while b != 0:
         a, b = b, a % b
-        print(a,b)
     return a
 
-print(nwd(60,48))
-
-print(ord("A"))
+fragment = "ania"
+fragment = fragment[1:-1]
+print(fragment)
